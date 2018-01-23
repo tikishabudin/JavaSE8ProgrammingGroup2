@@ -1,6 +1,8 @@
 package com.lazada.assets;
 
-public abstract class Account 
+import java.io.Serializable;
+
+public abstract class Account implements Serializable
 {
 	private int id;
 	private String holderName;

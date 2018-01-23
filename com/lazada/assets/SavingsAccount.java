@@ -1,6 +1,8 @@
 package com.lazada.assets;
 
-public class SavingsAccount extends Account 
+import java.io.Serializable;
+
+public class SavingsAccount extends Account implements Serializable
 {
 	private final double incentive = 0.5;
 

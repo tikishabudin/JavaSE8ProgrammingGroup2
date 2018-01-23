@@ -1,6 +1,8 @@
 package com.lazada.assets;
 
-public class CheckingAccount extends Account 
+import java.io.Serializable;
+
+public class CheckingAccount extends Account implements Serializable
 {
 	private final double transactionFee = 0.5;
 	
